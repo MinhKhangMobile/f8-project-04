@@ -7,6 +7,7 @@ html{
 body{
     font-size: 1.6rem;
     font-family: "poppins", sans-serif;
+    background: #FFFAF5;
 }
 input, textarea, select, button{
     font-size: inherit;
@@ -14,4 +15,218 @@ input, textarea, select, button{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "sors", sans-serif;
+}
+.container{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+}
+.navbar__list{
+    display: flex;
+}
+.navbar__item a{
+    margin-right: 36px;
+    color: #5E6085;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px;
+}
+.navbar__item a:hover{
+    color: #000958;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px;
+}
+.header__btn{
+    width: 117px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #000958;
+    margin-top: 6px;
+    padding-top: 15px;
+}
+.header__btn:hover{
+    background-color: #a9b0f0;
+}
+.header__btn--link{
+    color: #000958;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px;
+padding: 15px 30px;
+}
+/*hero*/
+.hero{
+    margin-top: 74px;
+}
+.hero__media{
+    display: flex;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__img--wrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 388px;
+    height: 488px;
+    background-color: #fe997b;
+    border-radius: 16px;
+    border: 3px solid #ffff;
+}
+.hero__img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.hero__decor{
+    position: absolute;
+    z-index: -1;
+}
+.hero__decor--left{
+    left: -58px;
+    bottom: 10px;
+}
+.hero__decor--right{
+ top: 16px;
+ right: -42px;   
+}
+.hero__img--wrap--small{
+    width: 186px;
+    height: 244px;
+    background: #FAA7AD;
+    border-radius: 16px;
+    border: 3px solid #ffff;
+    margin-top: 300px;
+    margin-left: -20px;
+    z-index: 1;
+}
+.hero__img--small{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 22px;
+}
+.hero__services{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+bottom: 200px;
+left: 510px;
+z-index: 1;
+}
+.dog__health{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FEC23F; 
+}
+.hero__services--health{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.hero__underline{
+    width: 118px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 10px;
+opacity: 0.08;
+background: #000958;
+margin-left: 10px;
+margin-top: 10px;
+}
+.dog__health--head{
+color: #181E52;
+font-family: Sora;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px;
+margin-left: 10px;
+}
+.hero__underline2{
+    margin-top: 5px;
+}
+.hero__content{
+    margin-left: 120px;
+}
+.hero__heading{
+    width: 517px;
+color: #000958;
+font-family: Sora;
+font-size: 66px;
+font-style: normal;
+font-weight: 800;
+line-height: 76px;
+}
+.hero__subheading{
+    margin-top: 24px;
+    width: 391px;
+color: #656689;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.hero__action{
+    margin-top: 38px;
+    display: flex;
+}
+.hero__btn{
+    width: 189px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 31px;
+background: #FF5B2E;
+box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+padding-top: 20px;
+}
+.hero__subbtn{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; 
+padding-left: 40px;
+}
+.hero__desc--btn{
+    color: #000958;
+
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 100% */
+text-decoration-line: underline;
+margin-left: 24px;
+margin-top: 20px;
 }
