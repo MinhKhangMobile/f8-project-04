@@ -589,3 +589,100 @@ line-height: 14px;
     opacity: 0.6;
     box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
+/*staff*/
+
+.staff{
+    background-color: #FFF6ED;
+    padding-top: 130px;
+}
+.staff__desc{
+    color: #5E6085;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.staff__heading{
+    text-align: center;
+    padding-bottom: 59px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+}
+.staff__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+}
+.staff-item__img{
+    position: relative;
+    width: 100%;
+    height: 260px;
+    z-index: 1;
+    display: block;
+}
+.staff-item__img-wrap{
+    position: relative;
+    margin: 0 16px;
+    border-radius: 130px;
+    overflow: hidden;
+}
+.staff-item__img-wrap::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 130px;
+    background: linear-gradient(180deg, #90CCFF 0%, #59A8EB 95.96%);
+    bottom: 0;
+    left: 0;
+    
+}
+.staff-item__title{
+    text-align: center;
+    margin-top: 29px;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.staff-item__name{
+    text-align: center;
+    margin-top: 14px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px; 
+}
+.staff__cta-wrap{
+    margin-left: 500px;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 193px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 31px;
+    border: 1px solid #FF5B2E;
+    opacity: 0.6;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+.staff-item{
+    position: relative;
+}
+.staff-item__decor{
+    position: absolute;
+    margin-top: -110px;
+}
+.staff-item__decor2{
+    margin-top: -240px;
+}
