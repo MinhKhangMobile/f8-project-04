@@ -841,3 +841,106 @@ input{
     background: #FF5B2E;
     color: #ffff;
 }
+/*review*/
+.review{
+    background: #FFFAF5;
+}
+.review-body{
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.review-nav{
+    margin-top: 150px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1px solid #FF5B2E;
+    cursor: pointer;
+}
+.review-img{
+    position: relative;
+    margin-left: 40px;
+    width: 274px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 137px;
+    background: #FFDA54;
+}
+.review__img--inner{
+    width: 100%;
+    position: absolute;
+    top: -75px;
+    overflow: hidden;
+    border-radius: 137px;
+}
+.review-content{
+    margin-left: 115px;
+    margin-top: 113px;
+}
+.review-heading{
+    color: #000958;
+    font-family: Sora;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+}
+.review-desc{
+    width: 553px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.review-nav-decor{
+    background-color: #FF5B2E;
+}
+.review-subdesc{
+    position: relative;
+    margin-top: 34px;
+    padding-left: 10px;
+    color: #282828;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.review-subdesc::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    bottom: 0;
+    left: -30px;
+    border-radius: 99px;
+    top: 7px;
+}
+.review-dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-top: -60px;
+    
+}
+.review-dot1{
+    width: 30px;
+    height: 4px;
+    background-color: #FF5B2E;
+    border-radius: 99px;
+}
+.review-dot2, .review-dot3, .review-dot4{
+    width: 7px;
+    height: 7px;
+    background-color: #FF5B2E;
+    border-radius: 50%;
+    border: 1px solid #FF5B2E;
+    background-color: #ffff;
+    margin-left: 10px;
+}
