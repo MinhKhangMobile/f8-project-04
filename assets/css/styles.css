@@ -947,6 +947,7 @@ input{
 /*blog*/
 .blog{
     background: #FFFAF5;
+    padding-bottom: 131px;
 }
 .blog-top{
     display: flex;
@@ -1044,4 +1045,123 @@ input{
 }
 .blog-img-decor2{
     background-color: #5BD6E2;
+}
+/*footer*/
+.footer-logo-inner{
+    display: flex;
+    align-items: center;
+}
+.footer-email{
+    position: relative;
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 268px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    background: #FFF;
+}
+.footer-email::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #FF5B2E;
+    cursor: pointer;
+
+}
+.footer-infor{
+    padding-top: 113px;
+    padding-left: 135px;
+    width: 615px;
+    height: 516px;
+    background: #FFF6ED;
+   
+}
+.footer-logo{
+    width: 35px;
+    height: 37.175px;
+}
+.footer-logo-name{
+    margin-left: 10px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.footer-email{
+    display: inline-flex;
+    padding-right: 100px;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+.footer-link{
+    display: inline-flex;
+    margin-top: 68px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px; 
+}
+.footer-socical{
+    margin-top: 16px;
+}
+.footer-icon{
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+.footer-inner{
+    display: flex;
+}
+.footer-list-top{
+    display: flex;
+}
+.footer-list-bottom{
+    display: flex;
+}
+.footer-list{
+    width: 500px;
+    padding-top: 52px;
+    margin-left: 100px;
+}
+.footer-list-top1{
+    display: block;
+    margin-right: 150px;
+    margin-bottom: 86px;
+}
+.footer-list-top3{
+    display: block;
+    margin-right: 70px;
+    margin-bottom: 86px;
+}
+.footer-list-top-heading{
+    color: #000958;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.footer-list-top-desc{
+    padding-top: 15px;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
 }
